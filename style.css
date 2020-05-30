@@ -125,9 +125,11 @@
        aside {
          width: 25%;
          
-         padding: 0.5em 1em;
+         padding: 0.5em 0.5em;
          margin: 1em 1em;
-         font-size: 7vmin;
+         
+  
+         
 
        }
   }
@@ -182,5 +184,19 @@
   }
 
   }
+
+
+  @media only screen and (max-width: 559px) {
+    aside {
+      font-size: 0.8em;
+    }
+  }
+
+  @media only screen and (max-width: 475px) {
+    aside {
+      font-size: 0.5em;
+    }
+  }
+  
 
   
